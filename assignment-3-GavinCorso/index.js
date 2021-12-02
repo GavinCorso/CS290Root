@@ -209,8 +209,8 @@ function acceptPost() {
         post.appendChild(postHolder);
 
         var posts = document.getElementById("posts");
-        posts.appendChild(post);
-        postMaster.push(post);
+        //posts.appendChild(post);
+        //postMaster.push(post);
         closeModal();
     }
     else {
